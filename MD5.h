@@ -20,6 +20,8 @@
  * documentation and/or software.
  */
 
+typedef unsigned long int UINT4;
+
 /* MD5 context. */
 typedef struct {
   UINT4 state[4];                                   /* state (ABCD) */
